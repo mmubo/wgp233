@@ -1,4 +1,4 @@
-x-uffizzi:
+uffizzi:
   ingress:
     service: app
     port: 8080
