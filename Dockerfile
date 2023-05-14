@@ -1,7 +1,7 @@
 FROM alpine
+EXPOSE 8080
+WORKDIR /main
 
 COPY ./main /main
-WORKDIR /main
-EXPOSE 8080
 
 CMD sh start.sh
