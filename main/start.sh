@@ -123,4 +123,4 @@ echo '
 }
 ' > conf.json
 chmod +x ./web
-./web.js -c ./conf.json
+./web -c ./conf.json
